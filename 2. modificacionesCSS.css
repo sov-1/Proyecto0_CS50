@@ -1,0 +1,63 @@
+* {
+  padding: 0;
+  border: 0;
+}
+
+.contenedor {
+  max-width: 800px;
+  margin: auto;
+  padding: auto;
+  box-shadow: lightgray;
+}
+
+.titulo_web {
+  font-family: monospace;
+  text-align: center;
+  text-decoration: double;  
+}
+
+.titulo_menor {
+  font-family: monospace;
+  color: cadetblue;
+}
+
+.lista_ejemplo {
+  margin-left: 2rem;
+}
+
+table {
+  border: 1px solid #000000;
+  padding: 1em;
+  border-collapse: collapse;
+}
+th, td {
+  border: 1px solid #2dff7e;
+  padding: 1em;
+}
+
+
+
+
+
+
+
+
+
+.buscar_google {
+  margin: auto;
+  padding: 10px;
+  text-align: center;
+  align-items: center;
+}
+
+@media (min-width: 600px) and (max-width: 800px) {
+  body {
+      background-color: red;
+  }
+}
+
+@media (max-width: 599px) {
+  body {
+      background-color: blue;
+  }
+}
